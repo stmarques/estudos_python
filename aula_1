@@ -1,4 +1,6 @@
-print("Olá, mundo!")
+variavel = "Olá, mundo!"
+print(variavel)
+
 nome = input ("Digite seu nome: ")
 ano_nascimento = input ("Digite seu ano de nascimento: ")
 ano_atual = input ("Digite o ano atual: ")
