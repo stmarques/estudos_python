@@ -1,0 +1,13 @@
+textoVariavel="Olá, mundo!"
+print(textoVariavel,type(textoVariavel))
+
+numeroVariavel=2
+print(numeroVariavel,type(numeroVariavel))
+
+boolVariavel=True
+print(boolVariavel,type(boolVariavel))
+
+#
+Características do python
+- Sintaxe mais enxuta
+- Tipagem dinâmica
