@@ -1,11 +1,17 @@
 textoVariavel="Olá, mundo!"
-print(textoVariavel,type(textoVariavel))
+print(textoVariavel, type(textoVariavel))
 
 numeroVariavel=2
-print(numeroVariavel,type(numeroVariavel))
+print(numeroVariavel, type(numeroVariavel))
 
 boolVariavel=True
-print(boolVariavel,type(boolVariavel))
+print(boolVariavel, type(boolVariavel))
+
+textoVariavel=numeroVariavel
+print(textoVariavel,type(textoVariavel))
+
+my_list = [6, 2, 4]
+print(my_list, type(my_list))
 
 #
 Características do python
