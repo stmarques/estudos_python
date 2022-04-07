@@ -1,3 +1,4 @@
+#tipos de variáveis#
 textoVariavel="Olá, mundo!"
 print(textoVariavel, type(textoVariavel))
 
@@ -12,6 +13,19 @@ print(textoVariavel,type(textoVariavel))
 
 my_list = [6, 2, 4]
 print(my_list, type(my_list))
+
+#atribuir tipo as variaveis#
+#exemplo 1#
+
+textoVariavel=input("Insira um número: ")
+print(textoVariavel, type(textoVariavel))
+numeroVar=int(textoVariavel)
+print(numeroVar, type(numeroVar))
+
+#ou#
+
+textoVariavel=int(input("Insira um número: "))
+print(textoVariavel, type(textoVariavel))
 
 '''
 Características do python
