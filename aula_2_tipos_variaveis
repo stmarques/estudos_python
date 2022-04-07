@@ -13,7 +13,8 @@ print(textoVariavel,type(textoVariavel))
 my_list = [6, 2, 4]
 print(my_list, type(my_list))
 
-#
+'''
 Características do python
 - Sintaxe mais enxuta
 - Tipagem dinâmica
+'''
