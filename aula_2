@@ -70,6 +70,19 @@ variavel2=bool(input("insira valor 2: "))
 total=variavel1+variavel2
 print(total,type(total))
 
+#SUBTRAÇÃO#
+
+#EXEMPLO 1#
+variavel1=int(input("insira valor 1: "))
+variavel2=int(input("insira valor 2: "))
+total=variavel1-variavel2
+print(total,type(total))
+
+#EXEMPLO 2#
+variavel1=bool(input("insira valor 1: "))
+variavel2=bool(input("insira valor 2: "))
+total=variavel1-variavel2
+print(total,type(total))
 
 
 
