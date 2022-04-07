@@ -46,7 +46,6 @@ print(textoVariavel, type(textoVariavel))
 
 variavel1=input("insira valor 1")
 variavel2=input("insira valor 2")
-
 print(variavel1+variavel2,type(variavel1+variavel2))
 
 #4. OPERADORES BÁSICOS#
