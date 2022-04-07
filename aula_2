@@ -1,34 +1,79 @@
-#tipos de variáveis#
-textoVariavel="Olá, mundo!"
-print(textoVariavel, type(textoVariavel))
-
-numeroVariavel=2
-print(numeroVariavel, type(numeroVariavel))
-
-boolVariavel=True
-print(boolVariavel, type(boolVariavel))
-
-textoVariavel=numeroVariavel
-print(textoVariavel,type(textoVariavel))
-
-my_list = [6, 2, 4]
-print(my_list, type(my_list))
-
-#atribuir tipo as variaveis#
-#exemplo 1#
-
-textoVariavel=input("Insira um número: ")
-print(textoVariavel, type(textoVariavel))
-numeroVar=int(textoVariavel)
-print(numeroVar, type(numeroVar))
-
-#ou#
-
-textoVariavel=int(input("Insira um número: "))
-print(textoVariavel, type(textoVariavel))
 
 '''
 Características do python
 - Sintaxe mais enxuta
 - Tipagem dinâmica
 '''
+
+#1. TIPOS DE VARIAVEIS#
+
+#TIPO STRING#
+textoVariavel="Olá, mundo!"
+print(textoVariavel, type(textoVariavel))
+
+#TIPO INTEIRO#
+numeroVariavel=2
+print(numeroVariavel, type(numeroVariavel))
+
+#TIPO BOOLEAN#
+boolVariavel=True
+print(boolVariavel, type(boolVariavel))
+
+#EXEMPLO DO PORQUE PYTHON É POSSUI UMA TIPAGEM DINÂMICA#
+textoVariavel=numeroVariavel
+print(textoVariavel,type(textoVariavel))
+
+my_list = [6, 2, 4]
+print(my_list, type(my_list))
+
+#2. ATRIBUIR TIPOS AS VARIAVEIS#
+
+#EXEMPLO 1#
+textoVariavel=input("Insira um número: ")
+print(textoVariavel, type(textoVariavel))
+numeroVar=int(textoVariavel)
+print(numeroVar, type(numeroVar))
+
+#EXEMPLO2#
+textoVariavel=int(input("Insira um número: "))
+print(textoVariavel, type(textoVariavel))
+
+#BOOLEANS#
+textoVariavel=bool(input("Insira um boolean: "))
+print(textoVariavel, type(textoVariavel))
+
+#3. CONCATENAR: OPERAÇÃO QUE UNE O CONTEÚDO DE DUAS STRINGS#
+
+variavel1=input("insira valor 1")
+variavel2=input("insira valor 2")
+
+print(variavel1+variavel2,type(variavel1+variavel2))
+
+#4. OPERADORES BÁSICOS#
+
+#SOMA#
+
+#EXEMPLO 1#
+variavel1=int(input("insira valor 1: "))
+variavel2=int(input("insira valor 2: "))
+print(variavel1+variavel2,type(variavel1+variavel2))
+
+#EXEMPLO 2#
+variavel1=int(input("insira valor 1: "))
+variavel2=int(input("insira valor 2: "))
+total=variavel1+variavel2
+print(total,type(total))
+
+#EXEMPLO 3#
+variavel1=bool(input("insira valor 1: "))
+variavel2=bool(input("insira valor 2: "))
+total=variavel1+variavel2
+print(total,type(total))
+
+
+
+
+
+
+
+
