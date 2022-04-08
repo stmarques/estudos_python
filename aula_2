@@ -85,16 +85,16 @@ print(total,type(total))
 
 #EXEMPLO 4
 variavel1=int(input("Insira o valor 1:"))
-variavel2=int(input("Insira o valor 2"))
+variavel2=int(input("Insira o valor 2:"))
 variavel1*=variavel2
 print("Multiplicação =: ",variavel1,type(variavel1))
 
 variavel3=int(input("Insira o valor 3:"))
-variavel4=int(input("Insira o valor 4"))
+variavel4=int(input("Insira o valor 4:"))
 variavel3-=variavel4
 print("Subtração =: ",variavel3,type(variavel3))
 
 variavel5=int(input("Insira o valor 5:"))
-variavel6=int(input("Insira o valor 6"))
+variavel6=int(input("Insira o valor 6:"))
 variavel5/=variavel6
 print("Divisão =: ",variavel5,type(variavel5))
