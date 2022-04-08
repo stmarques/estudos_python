@@ -5,17 +5,17 @@ Características do python
 - Tipagem dinâmica
 '''
 
-#1. TIPOS DE VARIAVEIS#
+#1. TIPOS DE VARIAVEIS
 
-#TIPO STRING#
+#TIPO STRING
 textoVariavel="Olá, mundo!"
 print(textoVariavel, type(textoVariavel))
 
-#TIPO INTEIRO#
+#TIPO INTEIRO
 numeroVariavel=2
 print(numeroVariavel, type(numeroVariavel))
 
-#TIPO BOOLEAN#
+#TIPO BOOLEAN
 boolVariavel=True
 print(boolVariavel, type(boolVariavel))
 
@@ -26,19 +26,19 @@ print(textoVariavel,type(textoVariavel))
 my_list = [6, 2, 4]
 print(my_list, type(my_list))
 
-#2. ATRIBUIR TIPOS AS VARIAVEIS#
+#2. ATRIBUIR TIPOS AS VARIAVEIS
 
-#EXEMPLO 1#
+#EXEMPLO 1
 textoVariavel=input("Insira um número: ")
 print(textoVariavel, type(textoVariavel))
 numeroVar=int(textoVariavel)
 print(numeroVar, type(numeroVar))
 
-#EXEMPLO2#
+#EXEMPLO2
 textoVariavel=int(input("Insira um número: "))
 print(textoVariavel, type(textoVariavel))
 
-#BOOLEANS#
+#BOOLEANS
 textoVariavel=bool(input("Insira um boolean: "))
 print(textoVariavel, type(textoVariavel))
 
@@ -48,40 +48,41 @@ variavel1=input("insira valor 1")
 variavel2=input("insira valor 2")
 print(variavel1+variavel2,type(variavel1+variavel2))
 
-#4. OPERADORES BÁSICOS#
+#4. OPERADORES BÁSICOS
 
-#SOMA#
+#EXEMPLO 1
+variavel1=input("insira o valor 1: ")
+variavel2=input("insira o valor 2: ")
 
-#EXEMPLO 1#
-variavel1=int(input("insira valor 1: "))
-variavel2=int(input("insira valor 2: "))
-print(variavel1+variavel2,type(variavel1+variavel2))
+variavel1=int(variavel1)
+variavel2=int(variavel2)
 
-#EXEMPLO 2#
-variavel1=int(input("insira valor 1: "))
-variavel2=int(input("insira valor 2: "))
-total=variavel1+variavel2
-print(total,type(total))
+print("Soma: ",variavel1+variavel2,type(variavel1+variavel2))
+print("Subtração: ",variavel1-variavel2,type(variavel1-variavel2))
+print("Multiplicação: ",variavel1*variavel2,type(variavel1*variavel2))
+print("Divisão: ",variavel1/variavel2,type(variavel1*variavel2))
+print("Divisão inteira: ",variavel1//variavel2,type(variavel1//variavel2))
+print("Modulo: ",variavel1%variavel2,type(variavel1%variavel2))
+print("Exponencial: ",variavel1**variavel2,type(variavel1**variavel2))
 
-#EXEMPLO 3#
+#EXEMPLO 2
+variavel1=int(input("Insira o valor 1:"))
+variavel2=int(input("Insira o valor 2"))
+
+print("Soma: ",variavel1+variavel2,type(variavel1+variavel2))
+print("Subtração: ",variavel1-variavel2,type(variavel1-variavel2))
+print("Multiplicação: ",variavel1*variavel2,type(variavel1*variavel2))
+print("Divisão: ",variavel1/variavel2,type(variavel1*variavel2))
+print("Divisão inteira: ",variavel1//variavel2,type(variavel1//variavel2))
+print("Modulo: ",variavel1%variavel2,type(variavel1%variavel2))
+print("Exponencial: ",variavel1**variavel2,type(variavel1**variavel2))
+
+#EXEMPLO 3
 variavel1=bool(input("insira valor 1: "))
 variavel2=bool(input("insira valor 2: "))
 total=variavel1+variavel2
 print(total,type(total))
 
-#SUBTRAÇÃO#
-
-#EXEMPLO 1#
-variavel1=int(input("insira valor 1: "))
-variavel2=int(input("insira valor 2: "))
-total=variavel1-variavel2
-print(total,type(total))
-
-#EXEMPLO 2#
-variavel1=bool(input("insira valor 1: "))
-variavel2=bool(input("insira valor 2: "))
-total=variavel1-variavel2
-print(total,type(total))
 
 
 
