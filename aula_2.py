@@ -176,7 +176,14 @@ print("resultado == or not:", resultado, type(resultado))
 
 
 #OPERADOR DE IDENTIDADE
+cidade_1 = "São Paulo"
+cidade_2 = "São Paulo"
+cidade_3 = "Rio de Janeiro"
 
+#IS
+resultado1=cidade_1 == cidade_2
+resultado2=cidade_2 == cidade_3
+print("resultado == is:", resultado1, resultado2)
 
 #OPERADOR DE ASSOCIAÇÃO
 variavel1=input("insira o valor: ")
