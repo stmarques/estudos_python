@@ -125,5 +125,5 @@ total2=valor1 * (valor2 + valor3)
 
 print("Total 1: ", total1, type(total1), "Total 2:", total2, type(total2))
 
-
+#6. OPERADORES RELACIONAIS
 
