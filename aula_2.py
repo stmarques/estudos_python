@@ -98,3 +98,23 @@ variavel5=int(input("Insira o valor 5:"))
 variavel6=int(input("Insira o valor 6:"))
 variavel5/=variavel6
 print("Divisão =: ",variavel5,type(variavel5))
+
+#5. PRECEDÊNCIA DE OPERADORES
+
+#EXEMPLO 1
+variavel1=input("insira o valor 1: ")
+variavel2=input("insira o valor 2: ")
+variavel3=input("insira o valor 3: ")
+
+valor1=int(variavel1)
+valor2=int(variavel2)
+valor3=int(variavel3)
+
+total2=valor1 * valor2 + valor3
+total3=valor1 * (valor2 + valor3)
+
+print("Totais:", total2, total3)
+
+#EXEMPLO 2
+
+
