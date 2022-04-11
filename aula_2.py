@@ -175,7 +175,7 @@ resultado = variavel1==variavel2 or not variavel2==variavel3
 print("resultado == or not:", resultado, type(resultado))
 
 
-#OPERADOR DE IDENTIDADE
+#4.4. OPERADOR DE IDENTIDADE
 cidade_1 = "São Paulo"
 cidade_2 = "São Paulo"
 cidade_3 = "Rio de Janeiro"
@@ -185,7 +185,41 @@ resultado1=cidade_1 == cidade_2
 resultado2=cidade_2 == cidade_3
 print("resultado == is:", resultado1, resultado2)
 
-#OPERADOR DE ASSOCIAÇÃO
+#EXEMPLO
+cidade_p1 = "São Paulo"
+cidade_p2 = "São Paulo"
+cidade_p3 = "Rio de Janeiro"
+
+resultado1 = cidade_p1 == cidade_p2
+resultado2 = cidade_p2 == cidade_p3
+print(" ==", resultado1, resultado2)
+
+print(id(cidade_p1))
+print(id(cidade_p2))
+print(id(cidade_p3))
+print(cidade_p1 is cidade_p2)
+print(cidade_p1 is not cidade_p3)
+print(cidade_p1 is cidade_p3)
+
+print("----------------------")
+
+list1 = [1,2,3,4]
+list2 = [1,2,3,4]
+list3 = list1
+
+resultado1 = list1==list2
+resultado2 = list1==list3
+resultado3 = list2==list3
+print(" ==", resultado1, resultado2, resultado3)
+
+print(id(list1))
+print(id(list2))
+print(id(list3))
+
+print("is: ", list1 is list2, " ==", list1==list2)
+print("is: ", list1 is list3, " ==", list1==list3)
+
+#4.5. OPERADOR DE ASSOCIAÇÃO
 variavel1=input("insira o valor: ")
 lista="Vidas Secas"
 
@@ -196,3 +230,48 @@ print("resultado not in: ", resultado)
 #NOT IN
 resultado=variavel1 in lista
 print("resultado in: ", resultado)
+
+#5. FUNÇÕES
+
+#5.1. bool
+#5.2. chr
+#5.3. float#5.3. int
+#5.4. input
+#5.6. list
+#5.7. print
+#5.8. type
+#5.9. id
+#5.10 str
+
+#5.11 len
+umastring = "Torto arado"
+tamanho=len(umastring)
+print("tamanho: ", tamanho)
+print("char[0]", umastring[0:5])
+print("char[0]", umastring[-3:])
+
+#5.12. index
+umastring = "Torto arado"
+indexWhiteSpace=umastring.index(' ')
+print("index:", indexWhiteSpace, "string:", umastring[:indexWhiteSpace])
+
+#5.13. upper e lower
+umastring = "Torto arado"
+print("UPPER: ", umastring.upper(), "lower: ", umastring.lower())
+
+#5.14. artswith e endswith
+umastring = "Torto arado"
+print("starts with:", umastring.startswith("Torto"))
+print("ends with:", umastring.endswith("ado"))
+
+#5.15. split
+umastring = "Torto arado"
+palavrasSeparadas = umastring.split(" ")
+print("Palavra[0]:", palavrasSeparadas[0])
+print("Palavra[1]:", palavrasSeparadas[1])
+
+#5.16. replace
+umastring = "Torto arado"
+palavrasSeparadas = umastring.replace("arado", "elefante")
+print(palavrasSeparadas)
+
