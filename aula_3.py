@@ -37,7 +37,7 @@ ALGUMAS BIBLIOTECAS
 - Scikit-learn e TensorFlow: ferramenta para machine learning.
 - Stasmodels: estatística clássica, regressão linear, séries temporais.
 
-AMBIENES DE DESENVOLVIMENTO
+AMBIENTES DE DESENVOLVIMENTO
 - Ipython e Jupyter: Ipython é um interpretador interetivo (Kernel), 
 sendo o Jupyter notebook um aplicativo web que permite criar e compartilhar documentos com códito ativo.
 - Spyder (IDE que acompanha o projeto Anaconda): https://www.spyder-ide.org/
@@ -185,5 +185,42 @@ DESVIOS CONDICIONAIS
 Ao construir qualquer algoritmo é preciso considerar que alguns dados são temporários, mas importantes para tomada de decisão.
 Ex.: uma página de internet indicada para maiores de 18 anos.
 
+CONTROLE DE FLUXO
+- Comandos utilizados para testar diferentes situaçõe e executar instruções definidas pelo programador.
+- Os comandos mais utilizados são: IF, ELIF e ELSE
 
+- IF: verifca o valor a ser testado e caso seja verdadeiro executa a instrução, caso seja falso não faz absolutamente nada.
+- ELSE: verifica o valor a ser testado e caso seja verdadeiro executa a instrução, caso seja falso executa a outra instrução.
+- ELIF: esta forma permite vários testes diferentes, ou seja, verifica o valor a ser testado e caso seja verdadeiro executa a instrução.
+Caso seja falso testa a próxima condição, sendo a última á cláusula else.
 '''
+
+#EXEMPLO USANDO SOMENTE IF
+valorInt = 5
+valorFloat = 1.5
+
+if valorInt == valorFloat:
+    print("Os valores são correspondentes")
+
+if valorInt != valorFloat:
+    print("Os valores não são correspondentes")
+  
+#EXEMPLO USANDO IF, ELIF E ELSE
+valorInt = 5
+valorFloat = 5.7
+
+if valorInt == valorFloat:
+    print("Os valores são correspondentes")
+
+elif valorInt > valorFloat:
+    print("o valor 5 é maior que o valor 1.5")
+    
+else:
+    print("O valor 1.5 é menor que o valor 5")
+  
+  '''
+  Utilizar o IF - ELSE é mais performático do que múltiplos IF; quando a condição é verdadeira executa o tracho de código e ignora todos os demais. 
+  Entretanto, em algumas situações pode ser interessante utilizar múltiplos IF, pois a condição IF - ELSE é mutuamente excludente.
+  '''
+
+
