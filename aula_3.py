@@ -55,29 +55,135 @@ Ver depois: https://www.anaconda.com/
  - Construído por cientistas para cientistas.
  - Mais de 20 milhões de usuários em todo o mundo.
  
- 
- 
- 
+VARIÁVEIS
+São espaços na memória para a realização de operações.
+Ex.: soma = valor1 + valor2 
 
-DESVIOS CONDICIONAIS
-Ao construir qualquer algoritmo é preciso considerar que alguns dados são temporários, mas importantes para tomada de decisão.
-Ex.: uma página de internet indicada para maiores de 18 anos.
+Todas as variáveis são consideradas um objeto em python
 
-TIPOS DE VARIÁVEIS
-int: números inteiros
-float: números reais (ponto flutuante)
-complex: número complexo
-bool: valores lógicos
-str (string): texto
-
-Obs.: ao estudar uma nova linguagem de programação, consulte sempre a documentação para verificar quais são os tipos de variáveis disponíveis
+Cada variável possui um endereço de memória, o nome atribuído a ela trata-se apenas de uma referência para o desenvolvedor. 
+Ao estudar uma nova linguagem de programação, consulte sempre a documentação para verificar quais são os tipos de variáveis disponíveis
 '''
 
-#EXEMPLO: TIPOS DE VARIAVEIS
+#TIPOS DE VARIÁVEIS (ESTRUTURAS DE DADOS)
 
+#EXEMPLO 1
+
+#int: números inteiros
+valorInt = 1
+print(("valorInt é uma variável do tipo {}".format(type(valorInt))))
+
+#float: números reais (ponto flutuante)
+valorFloat = 1.576
+print(("valorFloat é uma variável do tipo {}".format(type(valorFloat))))
+
+#str (string): texto
+valorString = "nome"
+print(("valorString é uma variável do tipo {}".format(type(valorString))))
+
+#bool: valores booleanos true ou false (tipos lógicos)
+valorBool = True
+print(("valorBool é uma variável do tipo {}".format(type(valorBool))))
+
+#complex: número complexo
+#valorComplex = 5gh
+#print(("valorComplex é uma variável do tipo {}".format(type(valorComplex))))
+
+#set: conjunto de elementos (list)
+valorList = ("Emerson", 1, 1.576)
+print(("valorList é uma variável do tipo {}".format(type(valorList))))
+
+#tuple: semelhantes ao tipo set, entretanto, imutável
+#valorTuple = tuple.(valorList)
+#print(("valorTuple é uma variável do tipo {}".format(type(valorTuple))))
+
+#dict: elementos que serão recuperados por uma chave
+valorDict = {'Emerson': 1}
+print(("valorDict é uma variável do tipo {}".format(type(valorDict))))
+
+#none: valor do tipo nulo
+valorNulo = None
+print(("valorNulo é uma variável do tipo {}".format(type(valorNulo))))
+ 
+#EXEMPLO
 ano = 1989
 nome = "Luke Skywalker"
 saldo = 50.30
 print(("O tipo de variável ano é {}".format(type(ano)))) #int
 print(("O tipo de variável nome é {}".format(type(nome)))) #str
 print(("O tipo de variável saldo é {}".format(type(saldo)))) #float
+
+'''
+OPERADORES
+
+OPERADORES ARITMÉTICOS
++ soma
+- subtração
+* multiplicação
+/ divisão
+// divisão (descarta o resto fracionário)
+** potência
+
+OPERADORES RELACIONAIS
+> maior
+>= maior igual
+< menor
+<= menor igual
+== igual
+!= diferente
+
+OPERADORES LÓGICOS (OPERAÇÕES BOOLEANAS 0 OU 1)
+& lógico E (and)
+│ logico OU (or)
+^ lógico OU exclusivo (xor)
+
+FUNÇÕES print() e input ()
+print: utilizada para exibir dados no console (saída), semelhante ao printf() no C e o System.out.print() no Java.
+input: utilizada para "capturar" daos (entrada), semelhante ao scanf() no C e ao Scanner() no Java.
+obs.: a função input() faz com que qualquer dado digitado pelo usuário seja tratado como um texto. Para manipular esse dado como número, é preciso fazer uma conversão.
+
+Entrada = dados
+Processamento = operação
+Saída = informação
+
+Lembrete: informações são sempre os dados trabalhados
+
+'''
+#EXEMPLO
+print("CALCULADORA")
+
+'''entrada = dados'''
+valor1 = float(input("Digite o primeiro valor: "))
+valor2 = float(input("Digite o segundo valor: "))
+
+'''processamento = operação'''
+soma = valor1 + valor2
+subtração = valor1 - valor2
+multiplicação = valor1 * valor2
+divisão = valor1 / valor2
+
+'''saída = informação'''
+print("Resultado da soma: {}".format(soma))
+print("Resultado da subtração: {}".format(subtração))
+print("Resultado da multiplicação: {}".format(multiplicação))
+print("Resultado da divisão: {:.2f}".format(divisão)) # {:.2f} = determina a quantidade de casa decimais depois do processamento#
+
+'''
+FORMATAÇÃO
+/t paragrafo
+\n pular linha
+{}.format - Para a função print não concatenar as variáveis é preciso utilizar o método .format para exibir um texto no local desejado.
+Para isso, utiliza-se as chaves como um marcador e a função format para preencher esse marcador vom o valor a ser exibido.
+'''
+
+#EXEMPLO
+print("\t\t\t\t\t\tCENTRALIZAR\n\n\n\n\n")
+print("fim")
+
+'''
+DESVIOS CONDICIONAIS
+Ao construir qualquer algoritmo é preciso considerar que alguns dados são temporários, mas importantes para tomada de decisão.
+Ex.: uma página de internet indicada para maiores de 18 anos.
+
+
+'''
