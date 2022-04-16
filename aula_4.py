@@ -37,3 +37,13 @@ print("A lista possui {} elementos".format(tamanho))
 #sum - retorna a soma dos elementos presentes
 soma = sum(valores)
 print("A soma dos elementos é igual a {}".format(soma))
+
+'''
+IMPORTANTE! 
+A lógica mais simples é a melhor.
+As vezes estruturamos um algoritmo que atende as necessidades e é eficaz, mas as vezes ele pode não ter a melhor performance.
+Por tanto, há dois indicadores para o desenvolvimento de um código com qualidade: eficacia e eficiência
+Eficacia: o código atingiu o propósito
+Eficiência: o código tem uma boa perfomance, é um código enxuto, limpo, bem indentado, facilidade a manutenção e a reusabilidade
+'''
+
