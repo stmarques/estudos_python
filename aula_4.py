@@ -39,6 +39,14 @@ soma = sum(valores)
 print("A soma dos elementos é igual a {}".format(soma))
 
 '''
+ver: def
+
+def calcularVelocidadeMedia(distancia,tempo):
+    velocidade_media = distancia / tempo
+    print("A velocidade média é {} km/h".format(velocidade_media))
+
+'''
+'''
 IMPORTANTE! 
 A lógica mais simples é a melhor.
 As vezes estruturamos um algoritmo que atende as necessidades e é eficaz, mas as vezes ele pode não ter a melhor performance.
