@@ -1,3 +1,5 @@
+DOCUMENTAÇÃO: https://docs.python.org/pt-br/3/tutorial/
+
 DESVIOS CONDICIONAIS
 
 Ao construir um algoritmo é preciso considerar que alguns dados podem ser temporários e ainda sim importantes para tomada de decisão. 
