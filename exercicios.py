@@ -19,3 +19,13 @@ Depois é preciso pegar o valor da doação e subtrair pelo valor do investinmen
 
 '''
 
+'''
+EXERCÍCIO 2
+Uma loja de ferragens oferece descontos conforme duas situações:
+    
+    a) se o valor da compra for superior a R$ 300,00 o cliente recebe 10% de desconto;
+    b) se a compra tiver mais de 10 itens distintos o cliente recebe 5% de desconto.
+
+Verificar e demonstrar o desconto (caso exista) e o valaor total da compra.
+'''
+
