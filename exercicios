@@ -38,3 +38,29 @@ if ((a >= 2) or (b <= 3)):
     d = (a + c) / 2;
 else:
     d = b * c;
+    
+EXERCÍCIO 4
+Analise o código Python a seguir:
+
+resultado = 2+5/2
+final=resultado-(resultado*(10/100))
+print(resultado)
+print(final)
+
+if final <= 1:
+    print("Nível 1")
+elif final <= 2:
+    print("Nivel 2")
+elif final <= 3:
+    print("Nível 3")
+elif final <= 4:
+    print("Nível 4")
+elif final <= 5:
+    print("Nível 5")
+   
+Escolha a alternativa que apresenta a saída após a execução do código apresentado:
+a) Nível 1
+a) Nível 2
+a) Nível 3
+a) Nível 4
+a) Nível 5
