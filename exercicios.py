@@ -29,3 +29,18 @@ Uma loja de ferragens oferece descontos conforme duas situações:
 Verificar e demonstrar o desconto (caso exista) e o valaor total da compra.
 '''
 
+'''
+EXERCÍCIO 3
+Qual o valor da variável [d] após a execução do código Python abaixo?
+a = 2
+b = 4
+c = 4
+d = 0
+a = 2
+b = 4
+c = 8
+d = 0
+if ((a >= 2) or (b <= 3)):
+    d = (a + c) / 2;
+else:
+    d = b * c;
