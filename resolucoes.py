@@ -15,9 +15,11 @@ else:
    
 #EXERCÍCIO 4: a) Nível 5
 
-#EXERCÍCIO 4
 #EXERCÍCIO 5
-#EXERCÍCIO 6
+def calcularVelocidadeMedia(distancia, tempo):
+    
+#EXERCÍCIO 6: while op != 5:
+
 #EXERCÍCIO 7
 #EXERCÍCIO 8
 #EXERCÍCIO 9
