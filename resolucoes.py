@@ -13,3 +13,14 @@ else:
     d=b*c;
     print("d = {}".format(d))
    
+#EXERCÍCIO 4: a) Nível 5
+
+#EXERCÍCIO 4
+#EXERCÍCIO 5
+#EXERCÍCIO 6
+#EXERCÍCIO 7
+#EXERCÍCIO 8
+#EXERCÍCIO 9
+#EXERCÍCIO 10
+#EXERCÍCIO 11
+#EXERCÍCIO 14
