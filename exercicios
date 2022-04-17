@@ -1,4 +1,3 @@
-'''
 EXERCÍCIO 1
 O estatudo de uma ONG determina que todas as doações recebidas devem gerar um valor para investimento, para cobrir momentos de necessidade.
 O valor investido deve ser de 5% da doação. Porém, em casos em que as doações ultrapassem R$ 1000,00 o investimento deve ser de 15% da doação.
