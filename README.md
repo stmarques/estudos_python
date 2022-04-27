@@ -12,8 +12,7 @@ CARACTERÍSTICAS
 - Licença livre aprovada pelo OSI e compatível com GPL
 - Desenvolvimento comunitário, aberto e gerenciado pela Python Software Foundation
 
-1º lugar na Index Tiobe (abril 2022)
-https://www.tiobe.com/tiobe-index/
+1º lugar na Index Tiobe (abril 2022): https://www.tiobe.com/tiobe-index/
 
 TRILHAS
 - Inteligência Artificial
