@@ -5,6 +5,7 @@ CARACTERÍSTICAS
 - Linguagem interpretada
 - Prioriza a legibilidade do código
 - Tipagem dinâmica
+- Sintaxe mais enxuta
 - Multiparadigma
 - Versátil e de uso geral
 - Computação científica
