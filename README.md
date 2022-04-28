@@ -3,13 +3,8 @@
 
 [Documentação](https://www.python.org/doc/versions/)
 
-Index Tiobe
-https://www.tiobe.com/tiobe-index/
+[Index Tiobe](https://www.tiobe.com/tiobe-index/)
 
 ### Estudos
 
 [Wiki](https://github.com/stmarques/python/wiki/)
-
-Tipos de variáveis
-https://github.com/stmarques/python/wiki/Variaveis
-
