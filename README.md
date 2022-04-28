@@ -1,7 +1,7 @@
 DOCUMENTAÇÃO: https://docs.python.org/pt-br/3/tutorial/
 
 CARACTERÍSTICAS
-- 1991 por Guido Van Rossum
+- criado em 1991 por Guido Van Rossum
 - Linguagem interpretada
 - Prioriza a legibilidade do código
 - Tipagem dinâmica
