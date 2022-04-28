@@ -1,35 +1,9 @@
-#ATRIBUIR VARIÁVEIS
-variavel = "Olá, mundo!"
-print(variavel)
-
 #EXEMPLO
 nome = input ("Digite seu nome: ")
 ano_nascimento = input ("Digite seu ano de nascimento: ")
 ano_atual = input ("Digite o ano atual: ")
 idade = int(ano_atual) - int(ano_nascimento)
 print(idade)
-
-#TIPOS DE VARIAVEIS
-
-#str (string): texto
-valorString = "nome"
-print(("valorString é uma variável do tipo {}".format(type(valorString))))
-
-#int: números inteiros
-valorInt = 1
-print(("valorInt é uma variável do tipo {}".format(type(valorInt))))
-
-#float: números reais (ponto flutuante)
-valorFloat = 1.576
-print(("valorFloat é uma variável do tipo {}".format(type(valorFloat))))
-
-#bool: valores booleanos true ou false (tipos lógicos)
-valorBool = True
-print(("valorBool é uma variável do tipo {}".format(type(valorBool))))
-
-#complex: número complexo
-#valorComplex = 5gh
-#print(("valorComplex é uma variável do tipo {}".format(type(valorComplex))))
 
 #set: conjunto de elementos (list)
 valorList = ("Emerson", 1, 1.576)
