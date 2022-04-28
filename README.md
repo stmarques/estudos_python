@@ -1,4 +1,2 @@
-SUMÁRIO
-
 Tipos de viáveis
 
