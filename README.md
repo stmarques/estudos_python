@@ -1,7 +1,7 @@
 
 ## Links Importantes
 
-[Documentação](https://docs.python.org/3/)
+[Documentação](https://www.python.org/doc/versions/)
 
 Index Tiobe
 https://www.tiobe.com/tiobe-index/
