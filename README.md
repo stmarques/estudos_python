@@ -9,6 +9,6 @@
 
 [Variáveis](https://github.com/stmarques/python/wiki/Vari%C3%A1veis)
 
-### Demais links importantes
+### Links relacionados
 
 [Index Tiobe](https://www.tiobe.com/tiobe-index/)
