@@ -9,6 +9,8 @@ https://www.tiobe.com/tiobe-index/
 
 ### Estudos
 
+https://github.com/stmarques/python/wiki/
+
 Tipos de variáveis
 https://github.com/stmarques/python/wiki/Variaveis
 
