@@ -3,6 +3,8 @@
 
 [Documentação](https://www.python.org/doc/versions/)
 
+[Pense Python - IME USP](https://panda.ime.usp.br/pensepy/static/pensepy/index.html)
+
 ### Meus Estudos
 
 [Introdução](https://github.com/stmarques/python/wiki/)
