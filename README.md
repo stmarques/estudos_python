@@ -7,6 +7,6 @@
 
 ### Meus estudos
 
-[Anotações Aula FIAP](https://github.com/stmarques/python/wiki/)
+[Introdução](https://github.com/stmarques/python/wiki/)
 
 [Variáveis](https://github.com/stmarques/python/wiki/Vari%C3%A1veis)
