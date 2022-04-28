@@ -1,5 +1,7 @@
 DOCUMENTAÇÃO: https://docs.python.org/pt-br/3/tutorial/
 
+https://github.com/stmarques/python/wiki
+
 CARACTERÍSTICAS
 - criado em 1991 por Guido Van Rossum
 - Linguagem interpretada
