@@ -5,6 +5,6 @@
 
 [Index Tiobe](https://www.tiobe.com/tiobe-index/)
 
-### Estudos
+### Meus estudos
 
 [Wiki](https://github.com/stmarques/python/wiki/)
