@@ -5,7 +5,10 @@
 
 [Pense Python - IME USP](https://panda.ime.usp.br/pensepy/static/pensepy/index.html)
 
+[Introdução à Computação com Python - IME USP](https://panda.ime.usp.br/cc110/static/cc110/index.html)
+
 [Aprenda Computação com Python - IFRN](https://mange.ifrn.edu.br/python/aprenda-com-py3/index.html)
+
 
 ### Meus Estudos
 
