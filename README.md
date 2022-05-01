@@ -5,6 +5,8 @@
 
 [Pense Python - IME USP](https://panda.ime.usp.br/pensepy/static/pensepy/index.html)
 
+[Aprenda Computação com Python - IFRN](https://mange.ifrn.edu.br/python/aprenda-com-py3/index.html)
+
 ### Meus Estudos
 
 [Introdução](https://github.com/stmarques/python/wiki/)
