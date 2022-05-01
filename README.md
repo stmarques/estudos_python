@@ -9,7 +9,7 @@
 
 ### Meus Estudos
 
-[Introdução](https://github.com/stmarques/python/wiki/)
+[Wiki](https://github.com/stmarques/python/wiki/)
 
 ### Links Relacionados
 
