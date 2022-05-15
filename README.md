@@ -8,6 +8,8 @@
 
 [Aprenda Computação com Python - IFRN](https://mange.ifrn.edu.br/python/aprenda-com-py3/index.html)
 
+[Playlist Youtube](https://www.youtube.com/watch?v=y7OhuSGBt8o&list=PLJv0bYjoZfuhQ33PUV1g_AP4LQy9HScZb)
+
 
 ### Meus Estudos
 
@@ -16,3 +18,5 @@
 ### Links Relacionados
 
 [Index Tiobe](https://www.tiobe.com/tiobe-index/)
+
+
